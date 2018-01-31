@@ -1,0 +1,28 @@
+/* Empty CSS file for your own CSS */
+body{margin-top:50px;}
+.glyphicon { margin-right:10px; }
+.panel-body { padding:0px; }
+.panel-body table tr td { padding-left: 15px }
+.panel-body .table {margin-bottom: 0px; }
+table td{
+    height: auto;
+    width: 100px;
+}
+@media(min-width:1025px){
+    .boton-menu{
+        display:none;
+    }
+    #accordion{
+        display: block;
+    }
+}
+
+.badge {
+  height: 100px;
+  width: 100px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  background: #424242;
+}

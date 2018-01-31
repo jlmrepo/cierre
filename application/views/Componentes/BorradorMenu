@@ -1,0 +1,143 @@
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-credit-card">
+                            </span>Cierre Cajas</a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse">
+                      <div class="panel-body">
+                            <table class="table">
+                                 <tr>
+                                    <td>
+                                        <span class="glyphicon glyphicon-plus"></span><a href="<?php echo base_url("index.php/Principal/"); ?>view_personal">Ver Cierre por Sucursales</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="glyphicon glyphicon-check"></span><a href="<?php echo base_url("index.php/Principal/"); ?>view_cargos">Ver Cierres por Cajas</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="glyphicon glyphicon-check"></span><a href="<?php echo base_url("index.php/Principal/"); ?>view_afp">Historico</a>
+                                    </td>
+                                </tr>
+                               
+                                
+                                <tr>
+                                    <td>
+                                        <span class="glyphicon glyphicon-check"></span><a href="<?php echo base_url("index.php/Principal/"); ?>view_salud">Descargar Informacion</a>
+                                     <!--  Mas adelante usar para contar <span class="badge">42</span> -->
+                                    </td>
+                                </tr>
+                              
+                            </table>
+                        </div>
+                    </div>
+                </div>  <!--Gestion de Nominas -->
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour"><span class="glyphicon glyphicon-folder-close">
+                            </span>Inventario Bodegas</a>
+                        </h4>
+                    </div>
+                    
+               
+                
+                <div id="collapseFour" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <table class="table">
+                                <tr>
+                                    <td>
+                                        <span class="glyphicon glyphicon-ok-circle"></span><a href="<?php echo base_url("index.php/Principal/"); ?>view_obras_documentos">Bodega Sucursales</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="glyphicon glyphicon glyphicon-remove-circle"></span><a href="<?php echo base_url("index.php/Principal/"); ?>view_obrasInactivas">Guias de Despacho</a>
+                                    </td>
+                                </tr>
+                                <!--
+                                <tr>
+                                    <td>
+                                        <span class="glyphicon glyphicon-pencil text-primary"></span><a href="<?php echo base_url("index.php/Principal/"); ?>view_personal">Trabajadores</a>
+                                    </td>
+                                </tr>
+                            -->
+                                <tr>
+                                    <td>
+                                        <span class="glyphicon glyphicon glyphicon-ok-circle"></span><a href="<?php echo base_url("index.php/Principal/"); ?>view_documentos_trabajador">Gestion Trabajadores</a>
+                                     <!--  Mas adelante usar para contar <span class="badge">42</span> -->
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="glyphicon glyphicon glyphicon-remove-circle"></span><a href="<?php echo base_url("index.php/Generador_documentos/"); ?>imprimir_contrato?id=13">Trabajadores Inactivos</a>
+                                     <!--  Mas adelante usar para contar <span class="badge">42</span> -->
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    </div> <!--Gestion de Documentos -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive"><span class="glyphicon glyphicon-usd">
+                            </span>Reportes</a>
+                        </h4>
+                    </div>
+                    <div id="collapseFive" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <table class="table">
+                                <tr>
+                                    <td>
+                                        <a href="">Ver Calendarios</a>
+                                    </td>
+                                </tr>
+                                <!-- habilitar mas adelante
+                                <tr>
+                                    <td>
+                                        <a href="http://www.jquery2dotnet.com">Seguimiento de Avance</a> <span class="label label-info">5</span>
+                                    </td>
+                                </tr>
+                                -->
+                                <tr>
+                                    <td>
+                                        <a href="">Generar Estado de Pagos</a>
+                                    </td>
+                                </tr>
+       
+                            </table>
+                        </div>
+                    </div>
+                </div> <!--Gestion de Estados De Pago -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix"><span class="glyphicon glyphicon-file">
+                            </span>Facturas</a>
+                        </h4>
+                    </div>
+                    <div id="collapseSix" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <table class="table">
+                                <tr>
+                                    <td>
+                                        <span class="glyphicon glyphicon-usd"></span><a href="<?php echo base_url("index.php/Principal/"); ?>view_facturacion">Total Generadas</a>
+                                    </td>
+                                </tr>
+                             
+                          <!-- habilitar mas adelante      <tr> 
+                                    <td>
+                                        <span class="glyphicon glyphicon-tasks"></span><a href="http://www.jquery2dotnet.com">Estado de Facturas</a>
+                                    </td>
+                                </tr> -->
+                              
+                            </table>
+                        </div>
+                    </div>
+                </div><!--Gestion de Facturas -->
